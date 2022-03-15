@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:noogle/layout/cubit/cubit.dart';
-import 'package:noogle/layout/cubit/states.dart';
 import 'package:noogle/modules/show_announcemnet_screen.dart';
 import 'package:noogle/modules/user/auth/sgin_in_screen.dart';
 import 'package:noogle/shared/styles/colors.dart';

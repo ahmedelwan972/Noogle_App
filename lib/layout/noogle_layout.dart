@@ -50,12 +50,12 @@ class NoogleLayout extends StatelessWidget {
                   ),
                 label: 'اضافة اعلان',
               ),
-              // BottomNavigationBarItem(
-              //   icon: Icon(
-              //       Icons.menu,
-              //     ),
-              //   label: 'القائمة',
-              // ),
+              BottomNavigationBarItem(
+                icon: Icon(
+                    Icons.menu,
+                  ),
+                label: 'القائمة',
+              ),
             ],
           ),
         );

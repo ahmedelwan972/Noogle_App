@@ -47,7 +47,7 @@ class NoogleCubit extends Cubit<NoogleStates>{
     HomeScreen(),
     UserScreen(),
     AddAnnoScreen(),
-   // MenuScreen(),
+    MenuScreen(),
   ];
 
   List<String> titles = [
@@ -67,7 +67,7 @@ class NoogleCubit extends Cubit<NoogleStates>{
     imagePicker.pickMultiImage();
     if (selectedImages!.isNotEmpty) {
       imageFileList.addAll(selectedImages);
-    }else{}
+    }else {}
     print("Image List Length:" + imageFileList.length.toString());
     emit(SelectMultiImagePickedState());
   }
